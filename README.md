@@ -55,7 +55,7 @@ ollama serve
 streamlit run fwt.py
 ```
 
-## 새 PC 온보딩 1분 체크리스트
+## 새로운 PC 온보딩 1분 체크리스트
 
 세팅이 이미 되어 있는 PC라면 아래만 확인하면 바로 실행할 수 있습니다.
 
