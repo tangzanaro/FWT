@@ -55,6 +55,25 @@ ollama serve
 streamlit run fwt.py
 ```
 
+## 새 PC 온보딩 1분 체크리스트
+
+세팅이 이미 되어 있는 PC라면 아래만 확인하면 바로 실행할 수 있습니다.
+
+1. 프로젝트 필수 파일 확인
+   - `fwt.py`
+   - `Foreign word transcription_Usage List.xlsx`
+   - `Foreign word transcription.rag.full.md`
+2. Python/패키지 확인
+   - `python --version`
+   - `python -c "import streamlit,pandas,openpyxl; print('ok')"`
+3. Ollama/모델 확인
+   - `ollama list`에서 `gpt-oss:20b` 존재 확인
+4. 서버/앱 실행
+   - `ollama serve`
+   - `streamlit run fwt.py`
+
+문제 발생 시 `## 문제 해결` 섹션을 먼저 확인해 주세요.
+
 ## 입력값
 
 - **외래어 문자열**: 필수
